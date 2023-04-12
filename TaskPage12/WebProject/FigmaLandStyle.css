@@ -1,0 +1,193 @@
+@font-face{
+    font-family: "Graphik";
+    src: url(../Fonts/Graphik.otf);
+}
+
+body{
+    background:#202020;
+    margin: 0px;
+    padding: 0px;
+    background: rgba(0,0,0,1);
+    font-family: "Graphik";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1097px;
+    height: 80px;
+    margin-left: 12%;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+
+.Logo{
+    width: 186px;
+    height: 58px;
+    margin-top: 20px;
+}
+
+.menubar{
+    width: 455px;
+    height: 44px;
+    padding: 0px;
+    margin-top: 42.5px;
+}
+
+.menubar ul{
+    width: auto;
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 51px;
+}
+
+ .menubar ul li:hover{
+    background:rgba(255, 255, 255, 0.12);
+    border-radius: 3px;
+}
+
+
+#menuicons{
+    padding-right: 3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menubar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btnlogin{
+    background: rgba(24, 24, 24, 1);
+    width: 139px;
+    height: 52px;
+    margin-top: 28px;
+    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.btnlogin a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btnlogin:hover{
+    background: rgba(0,100,0, 0.4);
+    border-radius: 3px;
+}
+
+#LoginIcon {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 853px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.HederText{
+    width: 709px;
+    height: 176px;
+    margin-left: 350px;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    text-align: center;
+}
+
+div{
+    width: 582px;
+    height: 60px;
+    margin-left: 420px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btntry{
+    background: rgba(68, 82, 254, 1);
+    margin-top: 95px;
+    margin-left: 520px;
+    width: 178px;
+    height: 65px;
+    border-style: none;
+
+
+}
+
+.btntry a{
+    font-family: "Graphik";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btntry a:hover{
+    text-decoration: underline;
+}
+
+
+.btnLearnMore{
+    background: rgba(24, 24, 24, 1);
+    width: 178px;
+    height: 65px;
+    margin-top: 95px;
+    margin-left: 30px;
+    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.btnLearnMore a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btnLearnMore:hover{
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    width: 100%;
+    height: 710px;
+    position: relative;
+}
+
+.dashboard{
+    height: 710px;
+    margin-left: 98px;
+}
+
+.gradientdiv{
+    position: absolute;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.2) );
+    width: 100%;
+    height: 710px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
